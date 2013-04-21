@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Records> 
+  <Record
+      A="Spiral"
+      B="Milky Way Galaxy"
+      C="This consist of a flat disk with a bulging center and surrounding spiral arms. The galaxy's disk includes stars, planets, dust, and gas all of which rotate around the galactic center in a regular manner. This spinning motion, at speeds of hundreds of kilometers per second, may cause matter in the disk to take on a distinctive spiral shape like a cosmic pinwheel. Older stars reside in the bulge at the center of the galactic disk. Many new stars also form in spiral systems, and their disks are surrounded by a halo, which scientists believe is rich with mysterious dark matter."
+  > 
+  </Record>
+  
+  <Record
+      A="Ellipse"
+      B="M32"
+      C="They are generally round but stretch longer along one axis than along the other.  They may be nearly circular or so elongated that they take on a cigar-like appearance.  Elliptical galaxies contain many older stars but little dust and other interstellar matter. Their stars orbit the galactic center, like those in the disks of spiral galaxies, but they do so in more random directions. Few new stars are known to form in elliptical galaxies. The largest known galaxies are giant elliptical galaxies."
+  >   
+  </Record>
+ 
+  <Record
+      A="S0"
+      B="NGC 2787"
+      C="This type of galaxy is intermediate between an elliptical galaxy and a spiral galaxy . S0 galaxies are disk galaxies (like spiral galaxies) which have used up or lost most of their interstellar matter and therefore have very little ongoing star formation. They consist mainly of aging stars (like elliptical galaxies). S0 and elliptical galaxies share common properties like spectral features, scaling relations and both can be considered as early type galaxies which are passively evolving, at least in the local universe."
+  >
+  </Record>
+  <Record
+      A="Irregular"
+      B="Small Magellanic Cloud"
+      C="This type of galaxy is uncommon. It is often chaotic in appearance, with neither a nuclear bulge nor any trace of spiral arm structure.Most irregular galaxies were once spiral or elliptical galaxies but were deformed by disorders in gravitational pull or by the gravitational influence of other galaxies close by."
+  >    
+  </Record> 
+</Records>

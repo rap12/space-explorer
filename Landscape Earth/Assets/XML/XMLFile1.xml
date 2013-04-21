@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+  <Planets> 
+	<planet name = "Mercury" diameter="3">  </planet> 
+	<planet name = "Mars" diameter="11">  </planet> 
+  </Planets> 
+ 

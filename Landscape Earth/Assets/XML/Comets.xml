@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Records> 
+   <Record
+      A="Hyakutake"
+      B="14,000 years."
+      C="One of the longest tails ever observed."
+  >
+  </Record> 
+  <Record
+      A="Swift-Tuttle"
+      B="133 years"
+      C="It was first seen in July 1862. is predicted could one day collide with Earth because the two orbits closely intercept each other. The latest calculations show that it will pass a comfortable 24 million km (15 million miles) from Earth on its next trip to" >
+  </Record> 
+  <Record 
+      A="Halleys Comet" 
+      B="75 years" 
+      C="Best known of the short period comets and is visible from Earth every 75 to 76 years.">    
+  </Record> 
+  <Record
+      A="Shoemaker Levy 9"
+      B="N/A"
+      C="Between July 16 and July 22, 1994, more than 20 fragments of Comet Shoemaker Levy 9 collided with the planet Jupiter It was the first collision of two Solar System bodies ever to be recorded."
+  > 
+  </Record>
+  
+</Records>

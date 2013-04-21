@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Records>
+  <Record       
+      A="Planet Name"
+      B="Diameter (Earth)"
+      C="Year (Earth Days)"
+      D="Day (Earth Days)"
+      E="Diameter (Km)"
+      F="Mass (Earths)"
+      G="Mean Orbit (Au)"
+      H="Orbit Vel (km/s)"
+      I="Orbit Vel (x Earths)"
+      J="Avg Day Temp(Cel)"
+      K="Avg Night Temp"
+      L="Surf Grav (m/s^2)"
+      M="Surf Grav (x Earths)"
+      N="Seen W/O aid?"
+      O="Ring System?"
+      P="Max Dist from Sun"
+      Q="Min Dist from Sun"
+      R="Min Dist from Earth"
+      S="Mass (Planet itself)"
+      T="Density"
+      U="Tilt of Axis"> 
+  </Record> 
+  <Record 
+      A="Comet Name"
+      B="Orbital Period"
+      C="Description"
+  >    
+  </Record>
+
+</Records>

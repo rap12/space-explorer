@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Records>  
+ <Record  
+	  A="Mercury"
+      B="0.383"
+      C="88"
+      D="58"
+      E="4878"
+      F="0.055"
+      G="0.38"
+      H="48"
+      I="1.607"
+      J="400"
+      K="-170"
+      L="3.7"
+      M="0.38"
+      N="Yes"
+      O="No"
+      P="69.7 million Km"
+      Q="45.9 million Km"
+      R="45 million Km"
+      S="0.33*10^24 Kg"
+      T="5,427 Kg/^3"
+      U="0 deg"  >   
+  </Record>
+  
+  <Record 
+	  A="Venus"
+      B="0.9"
+      C="224"
+      D="242"
+      E="12102"
+      F="0.81"
+      G="0.723"
+      H="35.02"
+      I="1.176"
+      J="460"
+      K="460"
+      L="8.87"
+      M="0.9"
+      N="Yes"
+      O="No"
+      P="109 million Km"
+      Q="108 million Km"
+      R="40 million Km"
+      S="4.87*10^24 Kg"
+      T="5,243 Kg/m^3"
+      U="177-178deg"> 
+  </Record>
+   
+  <Record       
+      A="Earth"
+      B="1"
+      C="365"
+      D="1"
+      E="12760"
+      F="1"
+      G="1"
+      H="29.79"
+      I="1"
+      J="20"
+      K="10"
+      L="9.8"
+      M="1"
+      N="Yes"
+      O="No"
+      P="152 million Km"
+      Q="146 million Km"
+      R="0"
+      S="5.98*10^24 Kg"
+      T="5,515 Kg/M^3"
+      U="23deg ">  
+  </Record>
+  
+  
+  
+  <Record       
+      A="Mars"
+      B="0.533"
+      C="687"
+      D="1.029"
+      E="6746"
+      F="0.107"
+      G="1.52"
+      H="24.13"
+      I="0.81"
+      J="-5"
+      K="-85"
+      L="3.8"
+      M="0.38"
+      N="Yes"
+      O="No"
+      P="249 million Km"
+      Q="205 million Km"
+      R="35 million miles"
+      S="0.64*10^24 Kg"
+      T="3,933 Kg/m^3"
+      U="25deg"> 
+  </Record>
+  
+  
+  <Record 
+      A="Jupiter"
+      B="11.2"
+      C="4332"
+      D="0.415"
+      E="11.2"
+      F="317.83"
+      G="5.2"
+      H="13.07"
+      I="0.439"
+      J="-121"
+      K="-121"
+      L="23.12 m/s^2"
+      M="23.12"
+      N="Yes"
+      O="Yes"
+      P="817 million Km"
+      Q="741 million Km"
+      R="588 million Km"
+      S="1,898*10^24 Kg"
+      T="1,326 Kg/m^3"
+      U="3.13"> 
+  </Record>
+  
+ 
+  <Record  
+      A="Saturn"
+      B="9.45"
+      C="9617"
+      D="0.72"
+      E="120536"
+      F="95.1"
+      G="9.5"
+      H="9.67"
+      I="0.4"
+      J="-125"
+      K="-125"
+      L="8.96"
+      M="0.92"
+      N="Yes"
+      O="Yes"
+      P="1.5 million Km"
+      Q="1.35 billion Km"
+      R="1.2 billion Km "
+      S="586.5*10^24 Kg"
+      T="687 Kg/m^3"
+      U="23.4deg">  
+  </Record>
+  
+  <Record
+      A="Uranus"
+      B="4.8"
+      C="30685"
+      D="0.75"
+      E="51118"
+      F="14.5"
+      G="19.2"
+      H="6.81"
+      I="0.28"
+      J="-193"
+      K="-193"
+      L="8.87"
+      M="0.89"
+      N="No"
+      O="Yes"
+      P="3 billion Km"
+      Q="2.7 billion Km "
+      R="2.57 billion Km"
+      S="86.8*10^24 Kg"
+      T="1,270 Kg/m^3"
+      U="23.5" >  
+  </Record>
+  
+  <Record      
+      A="Neptune"
+      B="3.88"
+      C="60115"
+      D="0.67"
+      E="49532"
+      F="17.1"
+      G="30.1"
+      H="5.45"
+      I="0.23"
+      J="-193"
+      K="-153"
+      L="11.15"
+      M="1.14"
+      N="No"
+      O="Yes"
+      P="4.54 billion Km"
+      Q="4.46 billion Km "
+      R="4.3 billion Km "
+      S="102.4*10^24 Kg"
+      T="1,638 Kg/m^3"
+      U="28.32"> 
+  </Record>
+</Records>
