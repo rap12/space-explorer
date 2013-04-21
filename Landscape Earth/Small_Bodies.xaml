@@ -15,43 +15,43 @@
     <phone:PhoneApplicationPage.Resources>
             <Storyboard x:Name="BigBan">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image8">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-895.5"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-5.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image8">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1.5"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-500.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-2"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image1">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-2"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image2">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-2"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image3">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-2"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-478"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image1">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-478"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image2">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-478"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
             	</DoubleAnimationUsingKeyFrames>
             	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image3">
-            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-478"/>
             		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
             	</DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -318,13 +318,13 @@
                         <RowDefinition Height="61*"/>
                         <RowDefinition Height="594*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock x:Name="ForThemTheKids" TextWrapping="Wrap" Text="Mercury" Margin="67,11,82,41" FontFamily="/Landscape Earth;component/Assets/Fonts/CFSpaceship-Regular.ttf#CF Spaceship" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Width="268" Grid.ColumnSpan="3">
+                    <TextBlock x:Name="ForThemTheKids" TextWrapping="Wrap" Text="Mercury" Margin="67,11,82,41" FontFamily="/Landscape Earth;component/Assets/Fonts/Fonts.zip#CF Spaceship" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Width="268" Grid.ColumnSpan="3">
                         <TextBlock.RenderTransform>
                             <CompositeTransform/>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <TextBlock x:Name="AttributeName" HorizontalAlignment="Left" Height="573" Margin="10,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="175" FontFamily="/Landscape Earth;component/Assets/Fonts/CFSpaceship-Regular.ttf#CF Spaceship" TextAlignment="Right" Foreground="#FF817B7B" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-                    <TextBlock x:Name="AttributeProperty" HorizontalAlignment="Left" Height="573" Margin="60,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165" FontFamily="/Landscape Earth;component/Assets/Fonts/spacefr.ttf#Space Frigate" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <TextBlock x:Name="AttributeName" HorizontalAlignment="Left" Height="573" Margin="10,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="175" FontFamily="Segoe WP" TextAlignment="Right" Foreground="#FF817B7B" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <TextBlock x:Name="AttributeProperty" HorizontalAlignment="Left" Height="573" Margin="60,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165" FontFamily="Segoe WP Light" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                 </Grid>
             </ScrollViewer>
 

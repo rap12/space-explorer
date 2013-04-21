@@ -16,6 +16,7 @@ namespace Landscape_Earth
         public TriviaPage()
         {
             InitializeComponent();
+            BigBegin.Begin();
         }
          
         int i = 1;
@@ -64,7 +65,7 @@ namespace Landscape_Earth
                         PropertyA.Text = PropertyA.Text + SolarSystemVar[planet, i] + "\n";
                         if (i == 2)
                         {
-                            PropertyB.Text = PropertyB.Text + "\n";
+                            PropertyA.Text = PropertyA.Text + "\n";
                         }
                     } 
                     break;
@@ -80,21 +81,21 @@ namespace Landscape_Earth
                     } 
                     break;
                 case 3:  
-                    PropertyB.Text = "";
-                    for (int i = 1; i < 4; i++)
-                    { 
-                        PropertyB.Text = PropertyB.Text + SolarSystemVar[planet, i] + "\n";
-                        if (i == 2)
-                        {
-                            PropertyB.Text = PropertyB.Text + "\n";
-                        }
-                    } 
-                    break;
-                case 4:  
                     PropertyA.Text = "";
                     for (int i = 1; i < 4; i++)
                     { 
                         PropertyA.Text = PropertyA.Text + SolarSystemVar[planet, i] + "\n";
+                        if (i == 2)
+                        {
+                            PropertyA.Text = PropertyA.Text + "\n";
+                        }
+                    } 
+                    break;
+                case 4:  
+                    PropertyB.Text = "";
+                    for (int i = 1; i < 4; i++)
+                    { 
+                        PropertyB.Text = PropertyB.Text + SolarSystemVar[planet, i] + "\n";
                         if (i == 2)
                         {
                             PropertyB.Text = PropertyB.Text + "\n";
@@ -104,22 +105,34 @@ namespace Landscape_Earth
                 case 5:  
                     PropertyA.Text = "";
                     for (int i = 1; i < 4; i++)
-                    { 
+                    {
                         PropertyA.Text = PropertyA.Text + SolarSystemVar[planet, i] + "\n";
+                        if (i == 2)
+                        {
+                            PropertyA.Text = PropertyA.Text + "\n";
+                        }
                     } 
                     break;
                 case 6: 
                     PropertyA.Text = "";
                     for (int i = 1; i < 4; i++)
-                    { 
+                    {
                         PropertyA.Text = PropertyA.Text + SolarSystemVar[planet, i] + "\n";
+                        if (i == 2)
+                        {
+                            PropertyA.Text = PropertyA.Text + "\n";
+                        }
                     } 
                     break;
                 case 7: 
                     PropertyB.Text = "";
                     for (int i = 1; i < 4; i++)
-                    { 
+                    {
                         PropertyB.Text = PropertyB.Text + SolarSystemVar[planet, i] + "\n";
+                        if (i == 2)
+                        {
+                            PropertyB.Text = PropertyB.Text + "\n";
+                        }
                     } 
                     break;
                 default:

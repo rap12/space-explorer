@@ -25,6 +25,7 @@
     <SilverlightAppEntry>Landscape_Earth.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ExpressionBlendVersion>5.0.31017.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -107,8 +108,14 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Fonts\CFSpaceship-Regular.ttf" />
-    <None Include="Assets\Fonts\spacefr.ttf" />
+    <BlendEmbeddedFont Include="Assets\Fonts\CFSpaceship-Regular.ttf">
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Assets\Fonts\spacefr.ttf">
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
   </ItemGroup>
@@ -136,6 +143,7 @@
     <Content Include="Assets\Solar System\UranusResized.png" />
     <Content Include="Assets\Solar System\VenusResized.png" />
     <Content Include="Assets\solarsystem.png" />
+    <Content Include="Assets\splash.png" />
     <Content Include="Assets\The Universe\theuniverse.png" />
     <Content Include="Assets\The Universe\Uni1.png" />
     <Content Include="Assets\The Universe\uni2.png" />
@@ -221,4 +229,5 @@
   </Target>
   -->
   <ProjectExtensions />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\WindowsPhone\v8.0\Microsoft.Expression.Blend.WindowsPhone.targets" />
 </Project>

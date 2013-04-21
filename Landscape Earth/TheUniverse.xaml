@@ -13,16 +13,7 @@
     mc:Ignorable="d"    
     shell:SystemTray.IsVisible="False">
     <phone:PhoneApplicationPage.Resources>
-        <Storyboard x:Name="BigBan">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image8">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-895.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image8">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-        </Storyboard>
+        <Storyboard x:Name="BigBan"/>
         <Storyboard x:Name="Reset">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image8">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
@@ -289,6 +280,13 @@
         	</DoubleAnimationUsingKeyFrames>
         	<DoubleAnimation Duration="0" To="-812" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image9" d:IsOptimized="True"/>
         	<DoubleAnimation Duration="0" To="2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image9" d:IsOptimized="True"/>
+        	<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image9">
+        		<DiscreteObjectKeyFrame KeyTime="0">
+        			<DiscreteObjectKeyFrame.Value>
+        				<Visibility>Collapsed</Visibility>
+        			</DiscreteObjectKeyFrame.Value>
+        		</DiscreteObjectKeyFrame>
+        	</ObjectAnimationUsingKeyFrames>
         </Storyboard>
     </phone:PhoneApplicationPage.Resources>
 
@@ -335,13 +333,13 @@
                         <RowDefinition Height="61*"/>
                         <RowDefinition Height="594*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock x:Name="ForThemTheKids" TextWrapping="Wrap" Text="Mercury" Margin="0,-9,0,22" FontFamily="/Landscape Earth;component/Assets/Fonts/CFSpaceship-Regular.ttf#CF Spaceship" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.Column="1" Width="136">
+                    <TextBlock x:Name="ForThemTheKids" TextWrapping="Wrap" Text="Mercury" Margin="0,-9,0,22" FontFamily="/Landscape Earth;component/Assets/Fonts/Fonts.zip#CF Spaceship" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.Column="1" Width="136">
                         <TextBlock.RenderTransform>
                             <CompositeTransform/>
                         </TextBlock.RenderTransform>
                     </TextBlock>
-                    <TextBlock x:Name="AttributeName" HorizontalAlignment="Left" Height="573" Margin="10,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="175" FontFamily="/Landscape Earth;component/Assets/Fonts/CFSpaceship-Regular.ttf#CF Spaceship" TextAlignment="Right" Foreground="#FF817B7B" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-                    <TextBlock x:Name="AttributeProperty" HorizontalAlignment="Left" Height="573" Margin="60,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165" FontFamily="/Landscape Earth;component/Assets/Fonts/spacefr.ttf#Space Frigate" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <TextBlock x:Name="AttributeName" HorizontalAlignment="Left" Height="573" Margin="10,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="175" FontFamily="Segoe WP" TextAlignment="Right" Foreground="#FF817B7B" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <TextBlock x:Name="AttributeProperty" HorizontalAlignment="Left" Height="573" Margin="60,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165" FontFamily="Segoe WP Light" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                 </Grid>
             </ScrollViewer>
 

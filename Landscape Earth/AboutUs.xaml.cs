@@ -15,6 +15,7 @@ namespace Landscape_Earth
         public AboutUs()
         {
             InitializeComponent();
+            Begin.Begin();
         }
     }
 }

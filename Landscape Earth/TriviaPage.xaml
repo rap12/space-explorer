@@ -83,6 +83,12 @@
     		<DoubleAnimation Duration="0:0:2" To="-86" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image3" d:IsOptimized="True"/>
     		<DoubleAnimation Duration="0:0:2" To="-282" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image3" d:IsOptimized="True"/>
     	</Storyboard>
+    	<Storyboard x:Name="BigBegin">
+    		<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="LayoutRoot">
+    			<SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+    			<SplineDoubleKeyFrame KeyTime="0:0:1" Value="0.995"/>
+    		</DoubleAnimationUsingKeyFrames>
+    	</Storyboard>
     </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
@@ -101,28 +107,40 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Image x:Name="image1" Grid.ColumnSpan="9" Margin="71,0,0,0" Source="/Assets/Trivia/triviapageblank.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-        	<Image.RenderTransform>
-        		<CompositeTransform/>
-        	</Image.RenderTransform>
-        </Image>
         <Grid Grid.ColumnSpan="9" Margin="72,64,-1,119">
-        	<Image Source="/Assets/blankbg.png" Stretch="Fill" Margin="1,-64,0,-119"/>
-        	<TextBlock x:Name="Landform" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" HorizontalAlignment="Center" Width="143" Margin="647,-26,10,0" Height="40"/>
+        	<Grid.ColumnDefinitions>
+        		<ColumnDefinition/>
+        	</Grid.ColumnDefinitions>
+        	<Image x:Name="image1" Margin="-1,-64,1,-119" Source="/Assets/Trivia/triviapageblank.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        		<Image.RenderTransform>
+        			<CompositeTransform/>
+        		</Image.RenderTransform>
+        	</Image>
+        	<TextBlock x:Name="Landform" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" HorizontalAlignment="Center" Width="227" Margin="535,-40,38,0" Height="40" FontFamily="/Landscape Earth;component/Assets/Fonts/Fonts.zip#CF Spaceship" FontSize="32" TextAlignment="Right"/>
         	<Image Margin="0,4,400,0" Source="/Assets/Trivia/greenleft.png" Stretch="Fill"/>
         	<Image Margin="400,0,0,4" Source="/Assets/Trivia/greenright.png" Stretch="Fill"/>
+        	<Image x:Name="image2" Margin="-102,506,422,-689" Source="/Assets/Solar System/EarthResized.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        		<Image.RenderTransform>
+        			<CompositeTransform/>
+        		</Image.RenderTransform>
+        	</Image>
+        	<Image x:Name="image3" Margin="485,570,-165,-753" Source="/Assets/Solar System/MarsResized.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        		<Image.RenderTransform>
+        			<CompositeTransform/>
+        		</Image.RenderTransform>
+        	</Image>
         	<Grid Margin="0,-64,1,-119">
         		<ScrollViewer x:Name="scrollViewer" HorizontalAlignment="Left" Height="230" Margin="0,98,0,0" VerticalAlignment="Top" Width="362" RenderTransformOrigin="0.5,0.5">
         			<ScrollViewer.RenderTransform>
         				<CompositeTransform/>
         			</ScrollViewer.RenderTransform>
-        			<Grid x:Name="A" Height="361" Width="348">
+        			<Grid x:Name="A" Height="374" Width="348">
         				<Grid.ColumnDefinitions>
         					<ColumnDefinition/>
         					<ColumnDefinition/>
         					<ColumnDefinition/>
         				</Grid.ColumnDefinitions>
-        				<TextBlock x:Name="PropertyA" HorizontalAlignment="Left" Height="361" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="348" Grid.ColumnSpan="3"/>
+        				<TextBlock x:Name="PropertyA" HorizontalAlignment="Left" Height="307" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="348" Grid.ColumnSpan="3" FontFamily="Segui WP"/>
         			</Grid>
         		</ScrollViewer>
         		<ScrollViewer x:Name="scrollViewer1" HorizontalAlignment="Left" Height="230" Margin="437,98,0,0" VerticalAlignment="Top" Width="362" RenderTransformOrigin="0.5,0.5">
@@ -135,31 +153,21 @@
         					<ColumnDefinition/>
         					<ColumnDefinition/>
         				</Grid.ColumnDefinitions>
-        				<TextBlock x:Name="PropertyB" HorizontalAlignment="Left" Height="375" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="348" Grid.ColumnSpan="3"/>
+        				<TextBlock x:Name="PropertyB" HorizontalAlignment="Left" Height="317" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="348" Grid.ColumnSpan="3" FontFamily="Segui WP" TextAlignment="Right"/>
         			</Grid>
         		</ScrollViewer>
         	</Grid>
-        	<Image x:Name="image2" Margin="-102,506,422,-689" Source="/Assets/Solar System/EarthResized.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-        		<Image.RenderTransform>
-        			<CompositeTransform/>
-        		</Image.RenderTransform>
-        	</Image>
-        	<Image x:Name="image3" Margin="485,570,-165,-753" Source="/Assets/Solar System/MarsResized.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-        		<Image.RenderTransform>
-        			<CompositeTransform/>
-        		</Image.RenderTransform>
-        	</Image>
         </Grid>
-        <Grid x:Name="grid" Grid.ColumnSpan="9" Margin="72,0,0,0" d:IsHidden="True">
+        <Grid x:Name="grid" Grid.ColumnSpan="9" Margin="72,0,0,0">
         	<Image x:Name="image" Source="/Assets/Trivia/trivia.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
         		<Image.RenderTransform>
         			<CompositeTransform/>
         		</Image.RenderTransform>
         	</Image>
-        	<Rectangle x:Name="Volcano" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="15,217,0,0" Stroke="Black" VerticalAlignment="Top" Width="172" Tap="Volcano_Tap"/>
-        	<Rectangle x:Name="Highest_Peak" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="208,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="172" Tap="Highest_Peak_Tap"/>
-        	<Rectangle x:Name="Deepest_Ocean" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="428,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="172" Tap="Deepest_Ocean_Tap"/>
-        	<Rectangle x:Name="Canyon" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="612,217,0,0" Stroke="Black" VerticalAlignment="Top" Width="172" Tap="Canyon_Tap"/>
+        	<Rectangle x:Name="Volcano" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="15,217,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="172" Tap="Volcano_Tap"/>
+        	<Rectangle x:Name="Highest_Peak" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="208,81,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="172" Tap="Highest_Peak_Tap"/>
+        	<Rectangle x:Name="Deepest_Ocean" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="428,81,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="172" Tap="Deepest_Ocean_Tap"/>
+        	<Rectangle x:Name="Canyon" Fill="#00454555" HorizontalAlignment="Left" Height="101" Margin="612,217,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="172" Tap="Canyon_Tap"/>
         </Grid>
         <Image x:Name="image4" Grid.ColumnSpan="2" Grid.Column="7" Margin="42,660,-334,-660" Source="/Assets/Solar System/JupiterResized.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
         	<Image.RenderTransform>

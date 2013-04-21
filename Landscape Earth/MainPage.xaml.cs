@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.ComponentModel;
 
 namespace Landscape_Earth
 {
@@ -19,6 +20,22 @@ namespace Landscape_Earth
             Loaded += MainPage_Loaded;
 
         }
+
+        protected override void OnBackKeyPress(CancelEventArgs e)
+        {
+            PhoneApplicationFrame RootFrame = Application.Current.RootVisual as PhoneApplicationFrame;
+
+            if (RootFrame != null)
+            {
+                if (RootFrame.BackStack.Count() > 0)
+                {
+                    RootFrame.RemoveBackEntry();
+                    RootFrame.RemoveBackEntry();
+                }
+            }
+
+        }
+
 
         private void MainPage_Loaded(object sender, RoutedEventArgs events)
         {

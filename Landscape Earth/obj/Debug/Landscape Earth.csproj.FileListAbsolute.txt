@@ -22,27 +22,3 @@ C:\Users\FranzJustin\documents\visual studio 2012\Projects\Landscape Earth\Lands
 C:\Users\FranzJustin\documents\visual studio 2012\Projects\Landscape Earth\Landscape Earth\obj\Debug\TriviaPage.g.cs
 C:\Users\FranzJustin\documents\visual studio 2012\Projects\Landscape Earth\Landscape Earth\obj\Debug\RedirectMenu.g.cs
 C:\Users\FranzJustin\documents\visual studio 2012\Projects\Landscape Earth\Landscape Earth\obj\Debug\AboutUs.g.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\Bin\Debug\ApplicationIcon.png
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\Bin\Debug\Background.png
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\Bin\Debug\Landscape Earth.dll
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\Bin\Debug\Landscape Earth.pdb
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\Bin\Debug\AppManifest.xaml
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\Bin\Debug\Landscape_Earth.xap
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\App.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\AboutUs.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\MainPage.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Menu.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Redirect.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\RedirectMenu.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\RedirectMeteor.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\RedirectTrivia.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\RedirectUniverse.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Small_Bodies.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Solar_System.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\TheUniverse.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\TriviaPage.g.i.cs
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Landscape Earth.g.resources
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Landscape Earth.dll
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\Landscape Earth.pdb
-C:\Users\admin\Documents\GitHub\space-explorer\Landscape Earth\obj\Debug\XapCacheFile.xml

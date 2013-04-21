@@ -92,12 +92,14 @@
 		</Storyboard>
 		<Storyboard x:Name="BigNew">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="LayoutRoot">
-				<SplineDoubleKeyFrame KeyTime="0" Value="-834"/>
-				<SplineDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+				<SplineDoubleKeyFrame KeyTime="0" Value="0"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="LayoutRoot">
-				<SplineDoubleKeyFrame KeyTime="0" Value="6"/>
-				<SplineDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+				<SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="LayoutRoot">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
 	</phone:PhoneApplicationPage.Resources>
