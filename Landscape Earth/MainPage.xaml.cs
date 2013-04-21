@@ -31,5 +31,15 @@ namespace Landscape_Earth
 			
 			// TODO: Add event handler implementation here.
         }
+
+        private void Rectangle_Tap_2(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/TriviaPage.xaml", UriKind.Relative));
+        }
+
+        private void Rectangle_Tap_3(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/AboutUs.xaml", UriKind.Relative)); 
+        }
     }
 }

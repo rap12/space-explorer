@@ -63,6 +63,65 @@ namespace Landscape_Earth
             return AttributePlanet;
         }
 
+        public String[,] TriviaThing()
+        {
+            string[,] Meteor = new string[8,4];
+            string[] Meteorites = new string[8];
+            for (int i = 0; i < 4; i++)
+            {
+                switch (i)
+                {
+                    case 0: Meteorites = getNames(@"Assets/XML/Landforms.xml", "A");
+                        break;
+                    case 1: Meteorites = getNames(@"Assets/XML/Landforms.xml", "B");
+                        break;
+                    case 2: Meteorites = getNames(@"Assets/XML/Landforms.xml", "C");
+                        break;
+                    case 3: Meteorites = getNames(@"Assets/XML/Landforms.xml", "D");
+                        break;
+                    default:
+                        break;
+                }
+                for (int j = 0; j < 8; j++)
+                {
+                    Meteor[j, i] = Meteorites[j];
+                }
+
+            }
+
+            return Meteor;
+        }
+
+        public String[,] AttributeName4Trivia()
+        {
+            string[,] AttributePlanet = new string[1, 4];
+            string[] PlanetName = new string[1];
+            for (int i = 0; i < 4; i++)
+            {
+                switch (i)
+                {
+                    case 0: PlanetName = getNames(@"Assets/XML/AttributeNamesTrivia.xml", "A");
+                        break;
+                    case 1: PlanetName = getNames(@"Assets/XML/AttributeNamesTrivia.xml", "B");
+                        break;
+                    case 2: PlanetName = getNames(@"Assets/XML/AttributeNamesTrivia.xml", "C");
+                        break;
+                    case 3: PlanetName = getNames(@"Assets/XML/AttributeNamesTrivia.xml", "D");
+                        break;
+                    default:
+                        break;
+                }
+                for (int j = 0; j < 1; j++)
+                {
+                    AttributePlanet[j, i] = PlanetName[j];
+                }
+
+            }
+
+            return AttributePlanet;
+        }
+
+
         public String[,] Meteor()
         {
             string[,] Meteor = new string[4, 3];

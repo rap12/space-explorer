@@ -16,10 +16,9 @@ namespace Landscape_Earth
         public TheUniverse()
         {
             InitializeComponent();
+            BigBang.Begin();
         }
-
-
-
+          
         int i = 1;
         protected override void OnBackKeyPress(CancelEventArgs e)
         {

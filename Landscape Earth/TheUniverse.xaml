@@ -278,10 +278,25 @@
         		</DiscreteObjectKeyFrame>
         	</ObjectAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Name="BigBang">
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="LayoutRoot">
+        		<SplineDoubleKeyFrame KeyTime="0" Value="814"/>
+        		<SplineDoubleKeyFrame KeyTime="0:0:1" Value="4"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="LayoutRoot">
+        		<SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+        		<SplineDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimation Duration="0" To="-812" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image9" d:IsOptimized="True"/>
+        	<DoubleAnimation Duration="0" To="2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image9" d:IsOptimized="True"/>
+        </Storyboard>
     </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="Transparent" RenderTransformOrigin="0.5,0.5">
+    	<Grid.RenderTransform>
+    		<CompositeTransform/>
+    	</Grid.RenderTransform>
         <Grid.RowDefinitions>
             <RowDefinition Height="480"/>
         </Grid.RowDefinitions>

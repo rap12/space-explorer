@@ -16,6 +16,7 @@ namespace Landscape_Earth
         public Small_Bodies()
         {
             InitializeComponent();
+            BigBan.Begin();
         }
 
         private void PresentTheAttributes(int planet)

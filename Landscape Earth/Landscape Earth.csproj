@@ -58,6 +58,9 @@
     <Reference Include="mscorlib.extensions" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.xaml.cs">
+      <DependentUpon>AboutUs.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -72,8 +75,14 @@
     <Compile Include="Redirect.xaml.cs">
       <DependentUpon>Redirect.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RedirectMenu.xaml.cs">
+      <DependentUpon>RedirectMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RedirectMeteor.xaml.cs">
       <DependentUpon>RedirectMeteor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RedirectTrivia.xaml.cs">
+      <DependentUpon>RedirectTrivia.xaml</DependentUpon>
     </Compile>
     <Compile Include="RedirectUniverse.xaml.cs">
       <DependentUpon>RedirectUniverse.xaml</DependentUpon>
@@ -86,6 +95,9 @@
     </Compile>
     <Compile Include="TheUniverse.xaml.cs">
       <DependentUpon>TheUniverse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TriviaPage.xaml.cs">
+      <DependentUpon>TriviaPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +116,7 @@
     <Content Include="ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\AboutU\aboutus.png" />
     <Content Include="Assets\blankbg.png" />
     <Content Include="Assets\description.png" />
     <Content Include="Assets\explore.png" />
@@ -128,12 +141,19 @@
     <Content Include="Assets\The Universe\uni2.png" />
     <Content Include="Assets\The Universe\uni3.png" />
     <Content Include="Assets\The Universe\uni4.png" />
+    <Content Include="Assets\Trivia\greenleft.png" />
+    <Content Include="Assets\Trivia\greenright.png" />
+    <Content Include="Assets\Trivia\trivia.png" />
+    <Content Include="Assets\Trivia\triviapage.png" />
+    <Content Include="Assets\Trivia\triviapageblank.png" />
     <Content Include="Assets\XML\AttributeNameMeteors.xml" />
+    <Content Include="Assets\XML\AttributeNamesTrivia.xml" />
     <Content Include="Assets\XML\AttributeNameUniverse.xml" />
     <Content Include="Assets\XML\Comets.xml" />
     <Content Include="Assets\XML\Comparing Earth Landscapes Dwarf.xml" />
     <Content Include="Assets\XML\Comparing Earth Landscapes Regular.xml" />
     <Content Include="Assets\XML\Galaxies.xml" />
+    <Content Include="Assets\XML\Landforms.xml" />
     <Content Include="Assets\XML\XMLFile1.xml" />
     <Content Include="Assets\XML\AttributeNames.xml" />
     <Content Include="Background.png">
@@ -142,6 +162,10 @@
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="AboutUs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -154,7 +178,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RedirectMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RedirectMeteor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RedirectTrivia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -171,6 +203,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TheUniverse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TriviaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

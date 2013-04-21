@@ -25,6 +25,7 @@ namespace Landscape_Earth
             NavigationService.Navigate(new Uri("/TheUniverse.xaml", UriKind.Relative));
 
         }
+
         private void RedirectSolar()
         {
             NavigationService.Navigate(new Uri("/TheUniverse.xaml", UriKind.Relative));

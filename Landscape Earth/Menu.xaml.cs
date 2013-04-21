@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.ComponentModel;
 
 namespace Landscape_Earth
 {
@@ -16,7 +17,14 @@ namespace Landscape_Earth
         {
             InitializeComponent();
             Loaded += MainPage_Loaded;
+            BigNew.Begin();
+        }
 
+        protected override void OnBackKeyPress(CancelEventArgs e)
+        {
+            e.Cancel = false; 
+                NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+             
         }
 
         private void MainPage_Loaded(object sender, RoutedEventArgs events)

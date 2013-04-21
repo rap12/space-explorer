@@ -29,8 +29,7 @@ namespace Landscape_Earth
             e.Cancel = false;
             if (i == 1)
             { 
-                NavigationService.Navigate(new Uri("/Menu.xaml", UriKind.Relative));
-
+                BigEnd.Begin(); 
             }
             else if (i == 2)
             { 
@@ -160,6 +159,11 @@ namespace Landscape_Earth
                 i = 2;
                 PresentTheAttributes(7);
             }
+        }
+
+        private void BigEnd_Completed(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/RedirectMenu.xaml", UriKind.Relative)); 
         }
          
  

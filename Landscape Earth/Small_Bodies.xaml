@@ -22,6 +22,38 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="1.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image1">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image2">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image3">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="-892"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image1">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image2">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
+            	</DoubleAnimationUsingKeyFrames>
+            	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image3">
+            		<EasingDoubleKeyFrame KeyTime="0" Value="24"/>
+            		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="10"/>
+            	</DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Name="Reset">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image8">
@@ -232,8 +264,14 @@
         	<DoubleAnimation Duration="0:0:2" To="-4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="grid" d:IsOptimized="True"/>
         </Storyboard>
         <Storyboard x:Name="BigBang">
-        	<DoubleAnimation Duration="0" To="-2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="LayoutRoot" d:IsOptimized="True"/>
-        	<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="LayoutRoot" d:IsOptimized="True"/>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="LayoutRoot">
+        		<SplineDoubleKeyFrame KeyTime="0" Value="-6"/>
+        		<SplineDoubleKeyFrame KeyTime="0:0:2" Value="-2"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="LayoutRoot">
+        		<SplineDoubleKeyFrame KeyTime="0" Value="496"/>
+        		<SplineDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+        	</DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </phone:PhoneApplicationPage.Resources>
 
@@ -256,7 +294,7 @@
                 <CompositeTransform/>
             </Image.RenderTransform>
         </Image>
-        <Grid x:Name="grid" Margin="372,480,0,-445" RenderTransformOrigin="0.5,0.5">
+        <Grid x:Name="grid" Margin="372,490,0,-455" RenderTransformOrigin="0.5,0.5">
             <Grid.RenderTransform>
                 <CompositeTransform/>
             </Grid.RenderTransform>

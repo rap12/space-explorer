@@ -33,6 +33,8 @@
         <!--ContentPanel - place additional content here-->
         <Image Source="/Assets/main.png" Stretch="Fill" Grid.RowSpan="5" Grid.ColumnSpan="3" Margin="72,0,0,0"/>
         <Rectangle Fill="#FFF4F4F5" Stroke="Black" Opacity="0" Tap="Rectangle_Tap_1" Grid.Row="1" Grid.Column="1"/>
+        <Rectangle Fill="#FFF4F4F5" Stroke="Black" Opacity="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="342,5,1,2" Tap="Rectangle_Tap_2"/>
+        <Rectangle Fill="#FFF4F4F5" Stroke="Black" Opacity="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="342,4,1,1" Tap="Rectangle_Tap_3"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

@@ -90,10 +90,23 @@
 				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-6"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
+		<Storyboard x:Name="BigNew">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="LayoutRoot">
+				<SplineDoubleKeyFrame KeyTime="0" Value="-834"/>
+				<SplineDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="LayoutRoot">
+				<SplineDoubleKeyFrame KeyTime="0" Value="6"/>
+				<SplineDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="-71,0,0,0">
+    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="-71,0,0,0" RenderTransformOrigin="0.5,0.5">
+    	<Grid.RenderTransform>
+    		<CompositeTransform/>
+    	</Grid.RenderTransform>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="247*"/>
             <ColumnDefinition Width="322*"/>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Records> 
+ 
+  <Record      A="Volcano"
+      B="Mars"
+      C="Olympus Mons"
+      D="Olympus Mons is a large shield volcano on the planet Mars. It has a height of 22km (14 mi). This makes it the tallest landform on any planet in the Solar System."
+>
+       </Record>
+  <Record       A="Volcano"
+      B="Earth"
+      C="Mauna Loa"
+      D="Mauna Loa is one of five volcanoes that form the Island of Hawaii in the U.S. state of Hawai?i in the Pacific Ocean, and the largest on Earth in terms of volume and area covered. It is an active shield volcano, with a volume estimated at approximately 18,"
+> 
+ 
+  </Record>
+  <Record     A="Highest Peak"
+      B="Mars"
+      C="Olympus Mons"
+      D="Olympus Mons is a large shield volcano on the planet Mars. It has a height of 22km (14 mi). This makes it the tallest mountain on any planet in the Solar System. It stands almost three times as tall as Mount Everest&apos;s height above sea level."
+  >
+    </Record>
+  <Record      A="Highest Peak"
+      B="Earth"
+      C="Mt. Everest"
+      D="Mount Everest is the Earth  highest mountain, with a peak at 8,848 metres (29,029 ft). It is located in the Mahalangur section of the Himalayas."
+>
+      </Record>
+  <Record     A="Deepest Ocean"
+      B="Jupiter"
+      C="Europa"
+      D="Although Europa is covered in a thick crust of scarred and cross-hatched ice, measurements made by NASA s Galileo spacecraft and other probes strongly suggest that a liquid ocean lies beneath that surface. This ocean is said to have a depth of 62 miles, t"
+>
+   </Record>
+  <Record      A="Deepest Ocean"
+      B="Earth"
+      C="Mariana Trench"
+      D="The Mariana Trench or Marianas Trench is the deepest part of the world oceans. It is located in the western Pacific Ocean, to the east of the Mariana Islands. It reaches a maximum-known depth of 10.911 km (10,911  40 m) or 6.831 mi (36,069  131 ft)."
+ >
+    </Record>
+  <Record      A="Canyon"
+      B="Earth"
+      C="Yarlung Tsangpo Grand Canyon"
+      D="With an average depth of 16,000 feet (4,876 m) around the mountains of Namcha Barwa, and plunging down to 19,714 feet (6,009 m) at one point, the Yarlung Tsangpo Grand Canyon is often considered the deepest canyon on Earth."
+ >
+     </Record>
+  <Record     A="Canyon"
+      B="Mars"
+      C="Valles Marineris"
+      D="Valles Marineris, or Mariner Valley, is a vast canyon system that runs along the Martian equator just east of the Tharsis region. Valles Marineris is 4000 km (2500 mi) long and reaches depths of up to 7 km (4 mi)"
+ >
+     </Record>
+</Records>
